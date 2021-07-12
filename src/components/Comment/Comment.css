@@ -1,8 +1,8 @@
-.Comment {
-    display: inline-flex;
-    flex-direction: column;
-    row-gap: 10px;
-    background-color: skyblue;
-    margin: 5px 0;
-}
-  
+    .Comment {
+        display: inline-flex;
+        flex-direction: column;
+        row-gap: 10px;
+        background-color: skyblue;
+        margin: 5px 0;
+    }
+    
