@@ -24,7 +24,7 @@ function App() {
       return { ...prev, selectedUser: user }
     });
     await fetchUserPosts(user.id);
-  };
+  }; 
 
   const fetchUserPosts = (userId) => {
     fetch(`${REST_URL}/posts`)

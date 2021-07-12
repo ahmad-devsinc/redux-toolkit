@@ -20,7 +20,7 @@ const Posts = () => {
             .then(comments => dispatch(saveComments(comments)))
             .catch(error => console.log(error));
     }
-
+ 
     useEffect(() => {
         fetchComments();
     }, [posts])

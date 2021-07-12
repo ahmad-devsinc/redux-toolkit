@@ -16,7 +16,7 @@
     font-weight: bold;
     cursor: pointer;
     background-color: silver;
-}
+} 
 .tabs {
     display: inline-flex;
     flex-direction: row;

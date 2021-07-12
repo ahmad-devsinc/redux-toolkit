@@ -17,7 +17,7 @@ const Sidebar = () => {
 
     useEffect(() => {
         return () => {
-        }
+        } 
     }, [dataContext]);
     return (
         <div className="Sidebar">

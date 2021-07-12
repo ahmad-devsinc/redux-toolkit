@@ -21,7 +21,7 @@ export const counterSlice = createSlice({
             state.comments = action.payload
         }
     }
-});
+}); 
 
 // Action creators are generated for each case reducer function
 export const { savePosts, saveTodos, saveAlbums, saveComments } = counterSlice.actions;

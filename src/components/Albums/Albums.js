@@ -6,7 +6,7 @@ import '../Posts/Posts.css';
 const Albums = () => {
     // const dataContext = useContext(DataContext);
     const { todos } = useSelector(state => state.data);
- 
+  
     useEffect(() => {
     }, [todos]);
     // useEffect(() => {

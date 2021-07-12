@@ -18,7 +18,7 @@ const Users = (props) => {
 
     const onSelectUser = (userEvent) =>{
         props.passStudent(userEvent);
-    }
+    } 
     return (
         <div className="Users">
             {users.map(user => {

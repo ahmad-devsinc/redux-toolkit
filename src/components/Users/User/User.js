@@ -21,7 +21,7 @@ const User = (props) => {
                             <span className="item__s">Full name:</span>&nbsp;<span className="item__m">{userContext.name}</span>
                         </div>
                         <div className="item">
-                            <span className="item__s">Email:</span>&nbsp;<span className="item__m">{userContext.email}</span>
+                             <span className="item__s">Email:</span>&nbsp;<span className="item__m">{userContext.email}</span>
                         </div>
                         <div className="item">
                             <span className="item__s">Phone:</span>&nbsp;<span className="item__m">{userContext.phone}</span>

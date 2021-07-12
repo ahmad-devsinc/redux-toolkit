@@ -8,5 +8,5 @@ const Comment = (prop) => {
         </div>
     );
 }
-
+ 
 export default Comment;
